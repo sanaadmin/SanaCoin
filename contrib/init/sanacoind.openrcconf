@@ -1,0 +1,26 @@
+# /etc/conf.d/sanacoind: config file for /etc/init.d/sanacoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/sanacoin/sanacoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/sanacoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/sanacoind.pid"
+
+# Where to write sanacoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/sanacoind"
+
+# User and group to own sanacoind process
+#BITCOIND_USER="sanacoin"
+#BITCOIND_GROUP="sanacoin"
+
+# Path to sanacoind executable
+#BITCOIND_BIN="/usr/bin/sanacoind"
+
+# Nice value to run sanacoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=SanaCoin
+Comment=SanaCoin P2P Cryptocurrency
+Exec=sanacoin-qt %u
+Terminal=false
+Type=Application
+Icon=sanacoin128
+MimeType=x-scheme-handler/sanacoin;
+Categories=Office;Finance;
+Name[ru]=sanacoin-qt.desktop.desktop
